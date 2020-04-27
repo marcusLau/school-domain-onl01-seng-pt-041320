@@ -12,7 +12,7 @@ class School
   
   def add_student(name, grade)
     if @roster.key?(grade) == false
-      @roster[:grade] = 
+      @roster[grade] = 
       
       
  
