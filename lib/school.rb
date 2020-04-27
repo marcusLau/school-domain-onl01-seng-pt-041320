@@ -10,7 +10,9 @@ class School
     @roster
   end
   
-  def add_student(name, key)
+  def add_student(name, grade)
+    if @roster[:grade] 
+    @roster[:grade] = []
     
   
   
