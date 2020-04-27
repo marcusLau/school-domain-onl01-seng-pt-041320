@@ -14,7 +14,8 @@ class School
     if @roster.key?(grade) == false
       @roster[grade] = []
     end
-      
+    @roster[:grade] << name
+  end
       
  
     
