@@ -21,4 +21,9 @@ class School
     @roster[grade]
   end
 
+  # sorts thru each grade alphabetically
+  def sort 
+    @roster.each do |grade, name|
+      
+  end
 end
